@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"ufgsfis");
+    
+    UIImageView *iamgeView=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 0, 0)];
+    [self.view addSubview:iamgeView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
